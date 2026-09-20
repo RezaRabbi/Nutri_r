@@ -1,2 +1,0 @@
-# letaskals
-# askals
