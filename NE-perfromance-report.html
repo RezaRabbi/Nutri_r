@@ -1,0 +1,2345 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Reza E Rabbi, Officer-Program Quality" />
+
+<meta name="date" content="2026-10-10" />
+
+<title>MAIN: NE performance on MMS Sales up to September</title>
+
+<script src="NE-perfromance-report_files/header-attrs-2.31/header-attrs.js"></script>
+<script src="NE-perfromance-report_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="NE-perfromance-report_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="NE-perfromance-report_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="NE-perfromance-report_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="NE-perfromance-report_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="NE-perfromance-report_files/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="NE-perfromance-report_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="NE-perfromance-report_files/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="NE-perfromance-report_files/navigation-1.1/tabsets.js"></script>
+<script src="NE-perfromance-report_files/navigation-1.1/codefolding.js"></script>
+<link href="NE-perfromance-report_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="NE-perfromance-report_files/highlightjs-9.12.0/highlight.js"></script>
+<script src="NE-perfromance-report_files/kePrint-0.0.1/kePrint.js"></script>
+<link href="NE-perfromance-report_files/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">MAIN: NE performance on MMS Sales up to
+September</h1>
+<h4 class="author">Reza E Rabbi, Officer-Program Quality</h4>
+<h4 class="date">2026-10-10</h4>
+
+</div>
+
+
+<p>According the project indicator, <strong>The number of pregnant women
+reached through nutrition and health</strong> is quite low compare to
+the other indicators <a
+href="https://datastudio.google.com/u/0/reporting/668187a5-8e58-4c6d-ae72-a43406ed46d5/page/p_m5494wkx5d/edit">Dashbaord</a>.
+All of you know that this indicator mostly depends on the MMS sales by
+the Nutrition Entrepreneurs. At the end of September, let’s have
+overview of MMS sales progress and the insights for developing
+stretegies for the remaining period</p>
+<div id="shantiganj-upazila" class="section level1">
+<h1>1. Shantiganj Upazila</h1>
+<div id="month-wise-customers-reached-by-mms-sales"
+class="section level2">
+<h2>1.1 Month-wise customers reached by MMS sales</h2>
+<table class="table table-striped table-hover table-condensed table-responsive" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 1 : Monthly Customers and New Customer Breakdown
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Month-Year
+</th>
+<th style="text-align:center;">
+Customers Reached
+</th>
+<th style="text-align:center;">
+New Customers
+</th>
+<th style="text-align:center;">
+Repeat Customers
+</th>
+<th style="text-align:center;">
+Retention Rate (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+2026-04
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+53
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+53
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0.0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-05
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+146
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+142
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+2.7
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-06
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+100
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+77
+</td>
+<td style="text-align:center;">
+23
+</td>
+<td style="text-align:center;">
+23.0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-07
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+52
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+45
+</td>
+<td style="text-align:center;">
+7
+</td>
+<td style="text-align:center;">
+13.5
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-08
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+7
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+7
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0.0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-09
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+9
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+7
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+22.2
+</td>
+</tr>
+</tbody>
+</table>
+<p>In <em>Table 1</em> there are 5 columns. For your understanding, the
+columns are described below-</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Month-Year:</strong> This column states the month and
+year of sales.</p></li>
+<li><p><strong>Customer Reached:</strong> This column states the number
+of customers reached in a month.</p></li>
+<li><p><strong>New Customers:</strong> This column states number of new
+customers reached who did not buy MMS before. There might be a confusion
+between column 2 and columns 3. For your understanding, column 2 means
+in a specific month how many unique customers reached, on the other
+hand, column 3 means in the same month how many of the unique customers
+are new (first time buyer)</p></li>
+<li><p><strong>Repeat Customers:</strong> It simply a calculation
+(column 2-column 3), means they are repeatedly buying MMS</p></li>
+<li><p><strong>Retention Rate (%):</strong> This is the customer
+retention rate for MMS by month.</p></li>
+</ol>
+<p>From <em>Table 1</em>, 331 unique customers were reached up to
+September in Shantiganj Upazila. The most noticeable thing is the trend
+of reaching new customers which is decreasing over month. During
+developing DIP we targeted 10 new customers per month per NE but in the
+data the number is significantly lower.</p>
+</div>
+<div id="trend-of-mms-sales-over-time" class="section level2">
+<h2>1.2 Trend of MMS sales over time</h2>
+<p><img src="NE-perfromance-report_files/figure-html/unnamed-chunk-2-1.png" alt="" width="672" /></p>
+<p>Following the <em>Table 1</em>, the above plot is constructed to
+visualize the decreasing trend of MMS sales by the entrepreneurs in
+Shantiganj.</p>
+<p>This trend is not surprising as the other project partners such as
+<strong>THP, CARE</strong> have the free distribution scheme of MMS.</p>
+</div>
+<div
+id="average-customer-reached-through-mms-sales-per-month-by-the-nes"
+class="section level2">
+<h2>1.3 Average customer reached through MMS sales per month by the
+NEs</h2>
+<table class="table table-striped" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 2: Monthly Average Unique Sales by NE
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Nutrition Entrepreneur
+</th>
+<th style="text-align:center;">
+Average Unique Sales per month
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Shibly Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+27.75
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Champa Rani Das
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+19.75
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shewly Banergy
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+11.67
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Meherunnesa (Lucky)
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+7.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Kobita Rani Das
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+5.40
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Lovely Rani Dey
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+5.40
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Suhena Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+4.50
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Safia Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+3.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Rubia Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+2.67
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Amena Akter
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+2.33
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Momotaz Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+2.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Afia Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+1.50
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst.Rubina Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+1.00
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <em>Table 2</em> demonstrates the average MMS sales by the
+Nutrition Entrepreneurs. This average is much higher till now as our
+entrepreneurs had higher sales during <strong>April-July 2026</strong>
+while the partners did not start MMS distributions. The evidence behind
+this be statement can be clarified if observe the monthly new customer
+aquisition by the NEs (<em>Table 3</em>).</p>
+</div>
+<div id="monthly-new-customers-reached-through-mms-sales-by-nes"
+class="section level2">
+<h2>1.4 Monthly new customers reached through MMS sales by NEs</h2>
+<table class="table table-striped" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 3: Monthly new customers reached through MMS by NE
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Nutrition Entrepreneur
+</th>
+<th style="text-align:center;">
+Apr-2026
+</th>
+<th style="text-align:center;">
+May-2026
+</th>
+<th style="text-align:center;">
+Jun-2026
+</th>
+<th style="text-align:center;">
+Jul-2026
+</th>
+<th style="text-align:center;">
+Aug-2026
+</th>
+<th style="text-align:center;">
+Sep-2026
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Amena Akter
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Champa Rani Das
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+41
+</td>
+<td style="text-align:center;">
+14
+</td>
+<td style="text-align:center;">
+12
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+4
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Kobita Rani Das
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+5
+</td>
+<td style="text-align:center;">
+11
+</td>
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Lovely Rani Dey
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+4
+</td>
+<td style="text-align:center;">
+11
+</td>
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Meherunnesa (Lucky)
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+10
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Momotaz Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Afia Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Rubia Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+2
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst.Rubina Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Safia Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shewly Banergy
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+15
+</td>
+<td style="text-align:center;">
+18
+</td>
+<td style="text-align:center;">
+23
+</td>
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shibly Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+17
+</td>
+<td style="text-align:center;">
+52
+</td>
+<td style="text-align:center;">
+16
+</td>
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Suhena Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+8
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+<p>According to <em>Table 3</em>, only 6 new customers were reached
+within August-September which is negligible. Before that period, a
+considerable number of new customers were reached through MMS.</p>
+</div>
+<div id="recommendation-based-on-the-findings-in-shantiganj"
+class="section level2">
+<h2>1.5 Recommendation based on the findings in Shantiganj</h2>
+<ul>
+<li><p>As the partners are strongly active in this area, the NEs can
+concentrate on Cooking demonstration, Mother campaign, seeds and other
+activities and nutritious products to increase the coverage of pregnant
+women.</p></li>
+<li><p>The NEs should expand the business area where newly pregnant
+women can reached.</p></li>
+<li><p>The low performing NEs can be sensitize to increase their
+coverage area so that they can reach more customers.</p></li>
+</ul>
+</div>
+</div>
+<div id="jagannathpur-upazila" class="section level1">
+<h1>2. Jagannathpur Upazila</h1>
+<p>Similarly, we can observe the sales of other Upazilas to make the
+required adjustments in project planning and implementation for the
+remaining period. In this section, we will continue the similar analysis
+for Jagannathpur Upazila. For your information, CARE also implementing
+the MAIN project through free distribution MMS and MNP.</p>
+<div id="month-wise-customers-reached-by-mms-sales-1"
+class="section level2">
+<h2>2.1 Month-wise customers reached by MMS sales</h2>
+<p>Let’s start with the monthly MMS sales by NEs (Number of NEs are
+10).</p>
+<table class="table table-striped table-hover table-condensed table-responsive" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 4 : Monthly Customers and New Customer Breakdown
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Month-Year
+</th>
+<th style="text-align:center;">
+Customers Reached
+</th>
+<th style="text-align:center;">
+New Customers
+</th>
+<th style="text-align:center;">
+Repeat Customers
+</th>
+<th style="text-align:center;">
+Retention Rate (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+2026-07
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+20
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+20
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0.0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-08
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+111
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+110
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+0.9
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-09
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+112
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+89
+</td>
+<td style="text-align:center;">
+23
+</td>
+<td style="text-align:center;">
+20.5
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-10
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+28
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+26
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+7.1
+</td>
+</tr>
+</tbody>
+</table>
+<p>According to <em>Table 4</em>, the sales were demonstrated from July
+to October 2026. Don’t be confused with timing with the Shantiganj
+Upazila. In Shantiganj, we started implementation earlier. Here, some
+sales also reported on October (Most of the sales occured in September
+but reported in October). Except the first month, the number reach is
+approximately align with our target of 10 pregnant women per month
+(Total 10 NEs). Howver the total number of customers reached through MMS
+is 245.</p>
+</div>
+<div id="trend-of-mms-sales-over-time-1" class="section level2">
+<h2>2.2 Trend of MMS sales over time</h2>
+<p><img src="NE-perfromance-report_files/figure-html/unnamed-chunk-6-1.png" alt="" width="672" /></p>
+<p>The <em>Figure 2</em> shows the trend the of the MMS sales. As some
+sales of September reported in October, we can merge the sales October
+with August. This merged data demonstrates a increasing trend in new
+customer aquisition in Jagannathpur Upazila.</p>
+</div>
+<div
+id="average-customer-reached-through-mms-sales-per-month-by-the-nes-1"
+class="section level2">
+<h2>2.3 Average customer reached through MMS sales per month by the
+NEs</h2>
+<table class="table table-striped" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 5: Monthly Average Unique Sales by NE
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Nutrition Entrepreneur
+</th>
+<th style="text-align:center;">
+Average Unique Sales per month
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Mst. Nasima Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+30.75
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Neelima Halder
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+20.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Gori rani das
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+16.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Marzia Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+13.50
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Sheli Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+4.67
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Ruby Rani Das Gupta
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+4.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Jahida Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+2.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Khaja Shahida Akther Ruma
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+2.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Mahmuda Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+2.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shali Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+1.50
+</td>
+</tr>
+</tbody>
+</table>
+<p>From <em>Table 5</em>, we can perceive the average customers
+aquisition by a NE. Here, the average of of first four NEs are greater
+than our target (10). But the remaining NEs have significantly lower
+sales (&lt;5) on an average. Let’s observe their monthly new customer
+aquisition trend to find more insights.</p>
+</div>
+<div id="monthly-new-customers-reached-through-mms-by-nes"
+class="section level2">
+<h2>2.4 Monthly new customers reached through MMS by NEs</h2>
+<table class="table table-striped" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 6: Monthly new customers reached through MMS by NE
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Nutrition Entrepreneur
+</th>
+<th style="text-align:center;">
+Jul-2026
+</th>
+<th style="text-align:center;">
+Aug-2026
+</th>
+<th style="text-align:center;">
+Sep-2026
+</th>
+<th style="text-align:center;">
+Oct-2026
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Gori rani das
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+13
+</td>
+<td style="text-align:center;">
+18
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Jahida Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Khaja Shahida Akther Ruma
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Mahmuda Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Marzia Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+17
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+9
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Nasima Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+14
+</td>
+<td style="text-align:center;">
+38
+</td>
+<td style="text-align:center;">
+41
+</td>
+<td style="text-align:center;">
+13
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Sheli Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+10
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Neelima Halder
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+5
+</td>
+<td style="text-align:center;">
+27
+</td>
+<td style="text-align:center;">
+22
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Ruby Rani Das Gupta
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shali Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+1
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+<p>According to <em>Table 6</em>, except some NEs (Gori rani das,Mst.
+Marzia Begum, Mst. Nasima Begum and Neelima Halder), the number of
+reaching new customers are lower for most of the NEs.</p>
+</div>
+<div id="recommendation-based-on-the-findings-in-jagannathpur"
+class="section level2">
+<h2>2.5 Recommendation based on the findings in Jagannathpur</h2>
+<ul>
+<li><p>Though one partner is operating in this upazila, the number of
+reaching pregnant women by MMS is higher compare to Shantiganj. Here, we
+need to confirm that the NEs were not providing MMS who already getting
+the same service from CARE.</p></li>
+<li><p>Identify the root causes of lower sales (who have &lt;5 average
+sales), and ensure the project support to minimize their
+issues.</p></li>
+</ul>
+</div>
+</div>
+<div id="chhatak-upazila" class="section level1">
+<h1>3. Chhatak Upazila</h1>
+<p>In this section, we will continue a similar analysis for Chhatak
+Upazila. Solely, iDE is implementing the MAIN project in this
+Upazila.</p>
+<div id="month-wise-customers-reached-through-mms-sales"
+class="section level2">
+<h2>3.1 Month-wise customers reached through MMS sales</h2>
+<p>Let’s start with the monthly MMS sales by NEs (Total trained NEs are
+9 where 8 were active).</p>
+<table class="table table-striped table-hover table-condensed table-responsive" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 7 : Monthly Customers and New Customer Breakdown
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Month-Year
+</th>
+<th style="text-align:center;">
+Customers Reached
+</th>
+<th style="text-align:center;">
+New Customers
+</th>
+<th style="text-align:center;">
+Repeat Customers
+</th>
+<th style="text-align:center;">
+Retention Rate (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+2026-06
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+4
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+4
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0.0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-07
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+54
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+53
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+1.9
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-08
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+228
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+225
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+1.3
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-09
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+116
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+95
+</td>
+<td style="text-align:center;">
+21
+</td>
+<td style="text-align:center;">
+18.1
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-10
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+19
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+18
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+5.3
+</td>
+</tr>
+</tbody>
+</table>
+<p>From <em>Table 7</em>, the number of reaching new customers through
+is quite impressive per month. But it has somewhat decreased in
+September 2026. The customer retention rate is also lower.</p>
+</div>
+<div id="trend-of-mms-sales-over-time-2" class="section level2">
+<h2>3.2 Trend of MMS sales over time</h2>
+<p><img src="NE-perfromance-report_files/figure-html/unnamed-chunk-11-1.png" alt="" width="672" /></p>
+<p><em>Figure 3</em> provide a scope for visualize increasing or
+decreasing trend of <em>Table 7</em>. In the next two sections, we can
+observe the NE-wise performance to make a plan at individual level.</p>
+</div>
+<div
+id="average-customer-reached-through-mms-sales-per-month-by-the-nes-2"
+class="section level2">
+<h2>3.3 Average customer reached through MMS sales per month by the
+NEs</h2>
+<table class="table table-striped" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 8: Monthly Average Unique Sales by NE
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Nutrition Entrepreneur
+</th>
+<th style="text-align:center;">
+Average Unique Sales per month
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Aysha Akter Oruna
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+35.20
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Jusna Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+28.33
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Sumena Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+24.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Asia Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+13.67
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shima Akter Doli
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+10.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Probina Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+9.50
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Sonara Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+8.67
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Hena Akter
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+1.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Purnima Rani Dey
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+1.00
+</td>
+</tr>
+</tbody>
+</table>
+<p>From <em>Table 8</em> the average sales is above project for most of
+the NEs. But suddenly dropped for last two NEs.</p>
+</div>
+<div id="monthly-new-customers-by-nes" class="section level2">
+<h2>3.4 Monthly New Customers by NEs</h2>
+<table class="table table-striped" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 9: Monthly new customers reached through MMS by NE
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Nutrition Entrepreneur
+</th>
+<th style="text-align:center;">
+Jun-2026
+</th>
+<th style="text-align:center;">
+Jul-2026
+</th>
+<th style="text-align:center;">
+Aug-2026
+</th>
+<th style="text-align:center;">
+Sep-2026
+</th>
+<th style="text-align:center;">
+Oct-2026
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Asia Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+22
+</td>
+<td style="text-align:center;">
+16
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Aysha Akter Oruna
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+4
+</td>
+<td style="text-align:center;">
+26
+</td>
+<td style="text-align:center;">
+86
+</td>
+<td style="text-align:center;">
+43
+</td>
+<td style="text-align:center;">
+9
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Jusna Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+42
+</td>
+<td style="text-align:center;">
+26
+</td>
+<td style="text-align:center;">
+9
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Hena Akter
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mst. Sumena Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+42
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Probina Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+17
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Purnima Rani Dey
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shima Akter Doli
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+18
+</td>
+<td style="text-align:center;">
+11
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Sonara Begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:center;">
+11
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 9</em> provides a insight about the average sales of the
+NEs. Here, some NEs such as <strong>Jusna Begum, Mst. Sumena Begum, and
+Asia Begum have</strong> higher average sales but they did not report
+every month consistenly.</p>
+</div>
+<div id="recommnedations-from-the-findings-in-chhatak"
+class="section level2">
+<h2>3.5 Recommnedations from the findings in Chhatak</h2>
+<ul>
+<li>We need to ensure monthly reporting from the NEs.</li>
+<li>Need to identify the causes of lower sales (below the target 10) and
+provide support from the project.</li>
+<li>For NE (Mst. Hena Akter), we need to explore the root cause of
+etremely lower performance<br />
+</li>
+<li>Need to motivate the NEs for 100% coverage of pregnant women within
+their business area.</li>
+</ul>
+</div>
+</div>
+<div id="lakhai-upazila" class="section level1">
+<h1>4. Lakhai Upazila</h1>
+<p>In this section, we will continue a similar analysis for Lakhai
+Upazila. Solely, iDE is implementing the MAIN project in this
+Upazila.</p>
+<div id="month-wise-customers-reached-through-mms-sales-1"
+class="section level2">
+<h2>4.1 Month-wise customers reached through MMS sales</h2>
+<p>Let’s start with the monthly MMS sales by NEs (Total number of
+trained NEs are 9 where 7 of them are active).</p>
+<table class="table table-striped table-hover table-condensed table-responsive" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 10 : Monthly Customers and New Customer Breakdown
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Month-Year
+</th>
+<th style="text-align:center;">
+Customers Reached
+</th>
+<th style="text-align:center;">
+New Customers
+</th>
+<th style="text-align:center;">
+Repeat Customers
+</th>
+<th style="text-align:center;">
+Retention Rate (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+2026-07
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+11
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+11
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0.0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-08
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+66
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+64
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+3.0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-09
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+133
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+128
+</td>
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:center;">
+3.8
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2026-10
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+17
+</td>
+<td style="text-align:center;color: rgba(39, 174, 96, 1) !important;">
+15
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+11.8
+</td>
+</tr>
+</tbody>
+</table>
+<p>According to <em>Table 10</em>, monthly new customers reached through
+MMS has a increasing trend. Here, we can ignore the October sales as
+this month is just started.</p>
+</div>
+<div id="trend-of-mms-sales-over-time-3" class="section level2">
+<h2>4.2 Trend of MMS sales over time</h2>
+<p><img src="NE-perfromance-report_files/figure-html/unnamed-chunk-16-1.png" alt="" width="672" /></p>
+<p><em>Figure 4</em> actually assists to visualize the reaching new
+customer over month. It showing the that there is increasing trend of
+reaching new customers from July to September 2026. It reached 128 new
+customers in a month. If we compare the project target, this number is
+quite good.</p>
+</div>
+<div
+id="average-customer-reached-through-mms-sales-per-month-by-the-nes-3"
+class="section level2">
+<h2>4.3 Average customer reached through MMS sales per month by the
+NEs</h2>
+To get more insights about NEs performance, we need to consider the
+NE-wise average sales and monthly performance of reaching new customers.
+<table class="table table-striped" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 11: Monthly Average Unique Sales by NE
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Nutrition Entrepreneur
+</th>
+<th style="text-align:center;">
+Average Unique Sales per month
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Ms. Rima begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+17.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shilpi akhter
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+16.33
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mahamud khatun
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+13.50
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Rojina begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+10.67
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Laiju Akhter
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+9.50
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Ms. Runa Akhter
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+7.33
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Ms. Shahana Akther
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+6.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shova Rani das
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+6.00
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Moha Rani Deb
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+1.00
+</td>
+</tr>
+</tbody>
+</table>
+<p>From <em>Table 11</em>, the average sales per month suggest a
+consistent value over the NEs which can be interpreted as more than 50%
+of the NEs have reached ~10 or greater customers per month. The
+performance of other NEs are not much lower from the target.</p>
+</div>
+<div id="monthly-new-customers-reached-through-mms-sales-by-nes-1"
+class="section level2">
+<h2>4.4 Monthly new customers reached through MMS sales by NEs</h2>
+<table class="table table-striped" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Table 12: Monthly new customers reached through MMS by NE
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Nutrition Entrepreneur
+</th>
+<th style="text-align:center;">
+Jul-2026
+</th>
+<th style="text-align:center;">
+Aug-2026
+</th>
+<th style="text-align:center;">
+Sep-2026
+</th>
+<th style="text-align:center;">
+Oct-2026
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Laiju Akhter
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+2
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+17
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Mahamud khatun
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+23
+</td>
+<td style="text-align:center;">
+4
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Moha Rani Deb
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Ms. Rima begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+16
+</td>
+<td style="text-align:center;">
+26
+</td>
+<td style="text-align:center;">
+7
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Ms. Runa Akhter
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+1
+</td>
+<td style="text-align:center;">
+5
+</td>
+<td style="text-align:center;">
+14
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Ms. Shahana Akther
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+2
+</td>
+<td style="text-align:center;">
+8
+</td>
+<td style="text-align:center;">
+8
+</td>
+<td style="text-align:center;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Rojina begum
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+6
+</td>
+<td style="text-align:center;">
+9
+</td>
+<td style="text-align:center;">
+17
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shilpi akhter
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+27
+</td>
+<td style="text-align:center;">
+20
+</td>
+<td style="text-align:center;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shova Rani das
+</td>
+<td style="text-align:center;font-weight: bold;color: rgba(44, 62, 80, 1) !important;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+6
+</td>
+<td style="text-align:center;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 12</em> deals with new customers reached over month by a
+NE. In this table, on noticeable thing is some NEs <strong>Mahamud
+khatun, Laiju Akhter and Shova Rani das</strong> did not reported
+consistently over month which increased their average sales in <em>Table
+11</em>. Though their average sales are higher we need to encourage them
+to report every month.</p>
+</div>
+<div id="recommnedations-from-the-findings-in-lakhai"
+class="section level2">
+<h2>4.5 Recommnedations from the findings in Lakhai</h2>
+<ul>
+<li>We need to ensure monthly reporting from the NEs.</li>
+<li>Need to identify the causes of lower sales (below the target 10) and
+provide support from the project.</li>
+<li>Need to motivate the NEs for 100% coverage of pregnant women within
+their business area.</li>
+</ul>
+</div>
+</div>
+<div id="conclusion" class="section level1">
+<h1>5. Conclusion</h1>
+<p>It seems that the progress has a lower trend of reaching the pregnant
+women through MMS where we have other project partners (CARE, THP). In
+this cases, we can concentrate on the project activities such as cooking
+demo, mother campaign, seeds selling, etc.</p>
+<p>The other upazilas where iDE is implementing solely, we need to
+identify the low performed NEs and provide the need based program
+support to reach more pregnant women. Though the sales has a increasing
+trend in these upazilas, we need to be cautious about any upcoming risks
+which might affect the sales.</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
